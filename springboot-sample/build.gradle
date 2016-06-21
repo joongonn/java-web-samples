@@ -1,0 +1,29 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:1.3.5.RELEASE"
+    }
+}
+
+apply plugin: "java"
+apply plugin: "application"
+apply plugin: "spring-boot"
+apply plugin: "eclipse"
+
+configurations {
+    compile.exclude module: "spring-boot-starter-tomcat"
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile "org.springframework.boot:spring-boot-starter-web:1.3.5.RELEASE"
+    compile "org.springframework.boot:spring-boot-starter-undertow:1.3.5.RELEASE"
+}
+
+sourceCompatibility = "1.8"
+mainClassName = "sample.Main"
