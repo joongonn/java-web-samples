@@ -1,10 +1,12 @@
 ## java-web-samples
 What are the options available to quickly get a RESTful backend bootstrapped and running?
 
-Quick hello-world survey of a few Java (micro) web frameworks including:
+Quick hello-world survey of a few Java (async, micro) web frameworks including:
 - [ratpack](https://ratpack.io/)
 - [spring-boot](http://projects.spring.io/spring-boot/)
 - [vertx](http://vertx.io/)
+
+Other worth considering: Dropwizard, Spark
 
 #### Goal
 To get a single `GET` REST endpoint up and responding at `http://localhost:8080/user/{id}`.
