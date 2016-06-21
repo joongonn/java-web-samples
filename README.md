@@ -5,7 +5,7 @@ Quick hello-world survey of a few Java micro web frameworks including:
 - [vertx](http://vertx.io/)
 
 #### Goal
-To get a single REST endpoint up and responding at `http://localhost:8080/user/{id}`.
+To get a single `GET` REST endpoint up and responding at `http://localhost:8080/user/{id}`.
 
 #### Prerequisites
 Install JDK 1.8 + [Gradle](http://gradle.org/).
